@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body {
+    background-color: white;
+    height: 100%;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+}
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    position: relative;
+    font-size: 0;
+}
+.introduction {
+    position: absolute;
+    left: 0;
+    bottom: 2.5rem;
+    width: 100%;
+    font-family: PingFangSC-Thin;
+    font-size: 0.34rem;
+    color: #4a4a4a;
+    display: flex;
+    justify-content: space-around
+}
+.footer {
+    padding-bottom: 1rem;
+}
+
+.wrapper {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+/*下载按钮*/
+.downloadBox a{
+    height: 1.38rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5rem;
+    color: black;
+    background: linear-gradient(to right, #E5DB5A , #E5BF16);
+    box-shadow:0 -2px 12px 0 rgba(255,230,0,0.44);
+    border: none;
+}
